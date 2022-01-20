@@ -1,0 +1,25 @@
+{
+  "name": "goit-js-hw-08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node js/fornode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanNikitchenko/goit-js-hw-08.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanNikitchenko/goit-js-hw-08/issues"
+  },
+  "homepage": "https://github.com/RomanNikitchenko/goit-js-hw-08#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "joi": "^17.5.0",
+    "shortid": "^2.2.16"
+  }
+}
