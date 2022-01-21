@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "node js/server.js",
-    "build": "babel src -d dist"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,6 @@
     "shortid": "^2.2.16"
   },
   "devDependencies": {
-    "@babel/cli": "^7.16.8",
-    "@babel/core": "^7.16.10",
-    "@babel/preset-env": "^7.16.11",
     "parcel": "^2.2.1"
   }
 }
